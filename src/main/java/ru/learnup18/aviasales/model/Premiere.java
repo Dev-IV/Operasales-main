@@ -6,7 +6,7 @@ import lombok.*;
 @Data
 public class Premiere {
 
-    private String name; //Предпологаем что имя уникально, и является ключом
+    private String name; 
     private String description;
     private String ageCategory;
     private Integer countFreeSeats;
